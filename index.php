@@ -15,7 +15,7 @@ Ejercicio despregamento web tarea 6
          * @package tarea6
          * @license http://creativecommons.org
          * @author Jose Manuel Rodriguez Rodriguez
-         * @version Version 0.1
+         * @version Version 1.0.1
          */
          
         require_once 'clase.php';
@@ -37,7 +37,7 @@ Ejercicio despregamento web tarea 6
          * @package JMRR
          * @license http://creativecommons.org
          * @author Jose Manuel Rodriguez Rodriguez
-         * @version Version 0.1
+         * @version Version 1.0.1
          */        	
 	 
 $EJ1 = new Coche("",""); 
@@ -50,7 +50,7 @@ echo $EJ1 -> isPalindrome('¿Acaso hubo búhos acá?');
          * @package JMRR
          * @license http://creativecommons.org
          * @author Jose Manuel Rodriguez Rodriguez
-         * @version Version 0.1
+         * @version Version 1.0.1
          */        	
 $EJ2 = new Coche("","",0); 
 echo $EJ2 -> primo($num=5); 
@@ -61,7 +61,7 @@ echo $EJ2 -> primo($num=5);
          * @package JMRR
          * @license http://creativecommons.org
          * @author Jose Manuel Rodriguez Rodriguez
-         * @version Version 0.1
+         * @version Version 1.0.1
          */        	
 $EJ3 = new Coche("",""); 
 echo $EJ3 -> maior($a=2, $b=6); 
@@ -73,7 +73,7 @@ echo $EJ3 -> maior($a=2, $b=6);
          * @package JMRR
          * @license http://creativecommons.org
          * @author Jose Manuel Rodriguez Rodriguez
-         * @version Version 0.1
+         * @version Version 1.0.1
          */        	
 $EJ4 = new Coche("",""); 
 echo $EJ4 -> ecuacion($c=4, $d=6); 
@@ -86,7 +86,7 @@ echo $EJ4 -> ecuacion($c=4, $d=6);
          * @package JMRR
          * @license http://creativecommons.org
          * @author Jose Manuel Rodriguez Rodriguez
-         * @version Version 0.1
+         * @version Version 1.0.1
          */        	
 $EJ5 = new Coche("",""); 
 echo $EJ5 -> esBisiesto($year=1945); 
